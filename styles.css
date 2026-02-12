@@ -9,10 +9,12 @@
 
 /* hier werde ich root einrichten */
 :root {
-    --primary-color: green;
+    --primary-color: black;
+    --primary-color-light: green;
     --secondary-color: lightgrey;
-    --secondary-color-dark: lightgrey;
+    --secondary-color-light: lightgreen;
     --font-family: 'Arial', sans-serif;
+    --font-size: 14px;
 }
 
 /* hier werde ich den body stylen */
@@ -20,15 +22,58 @@ body {
     font-family: var(--font-family);
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 2rem;
 }
 
-/* hier werde ich den h1 stylen */
+button {
+    background-color: transparent;
+    border: 3px solid var(--primary-color-light);
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    margin: 1rem auto;
+}
+
+/* nun h1 wurde gestyled */
 h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: var(--primary-color-light);
+    text-align: center;
+    margin: 1rem;
+}
+
+/* style ich table jetzt */
+table {
+    color: var(--primary-color-light);
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    border: 3px solid var(--primary-color-light);
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+
+th {
+    background-color: var(--primary-color-light);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    font-style: italic;
+}
+
+td {
+    padding: 0.5rem;
+    border: 3px solid var(--primary-color-light);
+    color: var(--primary-color);
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+div {
+    margin: 1rem auto;
+    width: 90%;
     text-align: center;
 }
