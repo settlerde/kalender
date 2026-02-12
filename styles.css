@@ -25,3 +25,10 @@ body {
     align-items: center;
     height: 100vh;
 }
+
+/* hier werde ich den h1 stylen */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
