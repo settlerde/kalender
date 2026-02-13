@@ -11,6 +11,7 @@
 :root {
     --primary-color: black;
     --primary-color-light: green;
+    --primary-color-dark: red;
     --secondary-color: lightgrey;
     --secondary-color-light: lightgreen;
     --font-family: 'Arial', sans-serif;
@@ -55,12 +56,11 @@ caption {
 /* style ich table jetzt */
 table {
     color: var(--primary-color-light);
-    margin: 2rem auto;
     text-align: center;
     border: 3px solid var(--primary-color-light);
     border-radius: 1.5rem;
     padding: 1rem;
-}
+    }
 
 th {
     background-color: var(--primary-color-light);
@@ -75,7 +75,9 @@ td {
     color: var(--primary-color);
     font-weight: bold;
     font-style: normal;
-
+}
+.wochenende-farbe {
+    color: var(--primary-color-dark);
 }
 
 /* das ist styling für footer */
@@ -85,3 +87,4 @@ footer {
     color: var(--primary-color-light);
     font-size: 0.8rem;
 }
+
