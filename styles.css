@@ -28,18 +28,25 @@ body {
     padding: 2rem;
 }
 
-button {
-    background-color: transparent;
-    border: 3px solid var(--primary-color-light);
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-    border-radius: 1.5rem;
-    margin: 1rem auto;
-}
-
 /* nun h1 wurde gestyled */
 h1 {
     font-size: 2rem;
+    color: var(--primary-color-light);
+    text-align: center;
+    margin: 1rem;
+}
+
+/* hier style ich h2 */
+h2 {
+    font-size: 1.2rem;
+    color: var(--primary-color-light);
+    text-align: center;
+    margin: 1rem;
+}
+
+/* hier style ich caption tag */
+caption {
+    font-size: 1.2rem;
     color: var(--primary-color-light);
     text-align: center;
     margin: 1rem;
