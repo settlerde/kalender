@@ -22,8 +22,8 @@ body {
     font-family: var(--font-family);
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
     height: 100vh;
     padding: 2rem;
 }
@@ -48,7 +48,6 @@ h1 {
 /* style ich table jetzt */
 table {
     color: var(--primary-color-light);
-    width: 90%;
     margin: 2rem auto;
     text-align: center;
     border: 3px solid var(--primary-color-light);
@@ -72,8 +71,9 @@ td {
 
 }
 
-div {
-    margin: 1rem auto;
-    width: 90%;
+footer {
     text-align: center;
+    margin-top: 2rem;
+    color: var(--primary-color-light);
+    font-size: 0.8rem;
 }
